@@ -1,0 +1,35 @@
+# Private game files, extracted asset payloads, caches and recordings
+/test-game/
+/test-saves/
+/private-cache/
+/recordings/
+/evidence/
+/backups/
+/.dotnet/
+
+# Build output and generated binaries
+**/bin/
+**/obj/
+**/target/
+*.exe
+*.dll
+*.pdb
+*.log
+*.bmp
+
+# Local saves, native reference data and generated captures
+*.save
+*.db
+*.db2
+*.fwl
+*.fwl2
+*.chunks
+*.chunk
+native-current.txt
+
+# Local agent handoff and private installation notes
+/HANDOFF.md
+/INVESTIGATION.md
+
+# User media and private thumbnails
+/thumbnail/
