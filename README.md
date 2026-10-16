@@ -2,7 +2,7 @@
 
 An experimental Rust reconstruction built from investigation of a locally installed Valheim copy. The aim is to make a small, playable world using verified original game data, while documenting which parts are native-derived and which are custom approximations.
 
-This is a work in progress, not a full remake. The current playable prototype has a connected 3×3 Meadows terrain patch, selected original trees and rocks, movement, gathering, one placeable floor, a simple Greyling encounter, and private save/load. Terrain and placements come from native-generated reference data stored in private local caches that are not included here. Full-playable milestone verification is still in progress; check [MEADOWS_MILESTONE.md](MEADOWS_MILESTONE.md) for status before treating it as complete.
+This is a work in progress, not a full remake. The current playable prototype has a connected 3×3 Meadows terrain patch, selected original trees and rocks, movement, gathering, one placeable floor, a simple Greyling encounter, and private save/load. Terrain and placements come from native-generated reference data stored in private local caches that are not included here. The bounded Meadows milestone passed automated traversal, asset comparison, save/restart, and launcher checks; human playtesting and broader native parity remain open. See [MEADOWS_MILESTONE.md](MEADOWS_MILESTONE.md) for the evidence and limitations.
 
 ## Try the playable prototype
 
